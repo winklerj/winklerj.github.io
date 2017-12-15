@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513367859771,
+  "timestamp": 1513367941595,
   "graph": {
     "options": {
       "directed": true,
@@ -57,11 +57,11 @@
         }
       },
       {
-        "v": "01-atoms/searchbox/searchbox.hbs",
+        "v": "01-atoms/socialmediashare/socialmediashare.hbs",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
-          "lineagePattern": "components-header"
+          "lineagePath": "../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html",
+          "lineagePattern": "components-footer"
         }
       },
       {
@@ -81,20 +81,6 @@
         }
       },
       {
-        "v": "02-components/alert/alert.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "01-atoms/socialmediashare/socialmediashare.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html",
-          "lineagePattern": "components-footer"
-        }
-      },
-      {
         "v": "01-atoms/typography/typography.hbs",
         "value": {
           "compileState": "clean"
@@ -107,13 +93,13 @@
         }
       },
       {
-        "v": "01-atoms/typography/typography~bullet-list-bullets.hbs",
+        "v": "01-atoms/typography/typography~bullet-list-default.hbs",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-atoms/typography/typography~bullet-list-default.hbs",
+        "v": "01-atoms/typography/typography~bullet-list-bullets.hbs",
         "value": {
           "compileState": "clean"
         }
@@ -161,6 +147,20 @@
         }
       },
       {
+        "v": "02-components/alert/alert.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-templates/base/base.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
         "v": "02-components/columncontainer/columncontainer.hbs",
         "value": {
           "compileState": "clean"
@@ -172,6 +172,12 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/02-components-page-title-with-nav-page-title-with-nav/02-components-page-title-with-nav-page-title-with-nav.rendered.html",
           "lineagePattern": "components-page-title-with-nav"
+        }
+      },
+      {
+        "v": "02-components/floating-content/floating-content.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -191,9 +197,11 @@
         }
       },
       {
-        "v": "02-components/floating-content/floating-content.hbs",
+        "v": "01-atoms/searchbox/searchbox.hbs",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
+          "lineagePattern": "components-header"
         }
       },
       {
@@ -213,20 +221,6 @@
         }
       },
       {
-        "v": "04-pages/contentpage/contentpage.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "03-templates/base/base.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
-          "lineagePattern": "pages-homepage"
-        }
-      },
-      {
         "v": "02-components/page-title-with-nav/page-title-with-nav.hbs",
         "value": {
           "compileState": "clean",
@@ -236,6 +230,12 @@
       },
       {
         "v": "04-pages/homepage/homepage.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/contentpage/contentpage.hbs",
         "value": {
           "compileState": "clean"
         }
