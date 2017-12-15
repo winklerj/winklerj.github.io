@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513368049829,
+  "timestamp": 1513374224647,
   "graph": {
     "options": {
       "directed": true,
@@ -12,8 +12,16 @@
         "v": "01-atoms/buttons/buttons.hbs",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html",
-          "lineagePattern": "components-footer"
+          "lineagePath": "../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html",
+          "lineagePattern": "components-primarynav"
+        }
+      },
+      {
+        "v": "01-atoms/parsys/parsys.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-atoms-column-column/01-atoms-column-column.rendered.html",
+          "lineagePattern": "atoms-column"
         }
       },
       {
@@ -33,14 +41,6 @@
         }
       },
       {
-        "v": "01-atoms/parsys/parsys.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/01-atoms-column-column/01-atoms-column-column.rendered.html",
-          "lineagePattern": "atoms-column"
-        }
-      },
-      {
         "v": "01-atoms/primarynavtoggle/primarynavtoggle.hbs",
         "value": {
           "compileState": "clean",
@@ -57,14 +57,6 @@
         }
       },
       {
-        "v": "01-atoms/signin/signin.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
-          "lineagePattern": "components-header"
-        }
-      },
-      {
         "v": "01-atoms/plusminustoggle/plusminustoggle.hbs",
         "value": {
           "compileState": "clean",
@@ -73,11 +65,33 @@
         }
       },
       {
+        "v": "01-atoms/signin/signin.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
+          "lineagePattern": "components-header"
+        }
+      },
+      {
         "v": "01-atoms/socialmediashare/socialmediashare.hbs",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html",
-          "lineagePattern": "components-footer"
+          "lineagePath": "../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html",
+          "lineagePattern": "components-primarynav"
+        }
+      },
+      {
+        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-atoms-typography-typography-tertiarylinklist/01-atoms-typography-typography-tertiarylinklist.rendered.html",
+          "lineagePattern": "atoms-typography-tertiarylinklist"
+        }
+      },
+      {
+        "v": "02-components/columncontainer/columncontainer.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -87,13 +101,13 @@
         }
       },
       {
-        "v": "01-atoms/typography/typography~blockquote.hbs",
+        "v": "01-atoms/typography/typography~bullet-list-bullets.hbs",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-atoms/typography/typography~bullet-list-bullets.hbs",
+        "v": "01-atoms/typography/typography~blockquote.hbs",
         "value": {
           "compileState": "clean"
         }
@@ -147,21 +161,13 @@
         }
       },
       {
-        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/01-atoms-typography-typography-tertiarylinklist/01-atoms-typography-typography-tertiarylinklist.rendered.html",
-          "lineagePattern": "atoms-typography-tertiarylinklist"
-        }
-      },
-      {
-        "v": "02-components/alert/alert.hbs",
+        "v": "02-components/floating-content/floating-content.hbs",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "02-components/columncontainer/columncontainer.hbs",
+        "v": "02-components/alert/alert.hbs",
         "value": {
           "compileState": "clean"
         }
@@ -175,12 +181,6 @@
         }
       },
       {
-        "v": "02-components/floating-content/floating-content.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
         "v": "02-components/header/header.hbs",
         "value": {
           "compileState": "clean",
@@ -190,14 +190,6 @@
       },
       {
         "v": "02-components/footer/footer.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
-          "lineagePattern": "pages-contentpage"
-        }
-      },
-      {
-        "v": "02-components/page-title-with-nav/page-title-with-nav.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
@@ -221,11 +213,17 @@
         }
       },
       {
-        "v": "03-templates/base/base.hbs",
+        "v": "02-components/page-title-with-nav/page-title-with-nav.hbs",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
-          "lineagePattern": "pages-homepage"
+          "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
+          "lineagePattern": "pages-contentpage"
+        }
+      },
+      {
+        "v": "04-pages/homepage/homepage.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -235,9 +233,11 @@
         }
       },
       {
-        "v": "04-pages/homepage/homepage.hbs",
+        "v": "03-templates/base/base.hbs",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
         }
       },
       {
@@ -331,13 +331,13 @@
         }
       },
       {
-        "v": "/Users/jzeltman/Development/_Projects/uhc/uhc-base/dpl/source/_meta/_00-head.mustache",
+        "v": "/Users/33108/git/uhc-base/dpl/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "/Users/jzeltman/Development/_Projects/uhc/uhc-base/dpl/source/_meta/_01-foot.mustache",
+        "v": "/Users/33108/git/uhc-base/dpl/source/_meta/_01-foot.mustache",
         "value": {
           "compileState": null
         }
@@ -542,6 +542,16 @@
       {
         "v": "02-components/page-title-with-nav/page-title-with-nav.hbs",
         "w": "02-components/contextualnav/contextualnav.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/primarynav/primarynav.hbs",
+        "w": "01-atoms/buttons/buttons.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/primarynav/primarynav.hbs",
+        "w": "01-atoms/socialmediashare/socialmediashare.hbs",
         "value": {}
       },
       {
