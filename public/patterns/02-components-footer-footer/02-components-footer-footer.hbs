@@ -1,0 +1,22 @@
+<footer class="sitefooter">
+  <div class="container">
+
+    {{#if footerLinks}}
+    <ul class="sitefooter__links">
+      {{#footerLinks}}
+      <li>
+        <a href="{{link}}">{{title}}</a>
+      </li>
+      {{/footerLinks}}
+    </ul>
+    {{/if}}
+
+    <aside>
+      {{> atoms-socialmediashare}} {{#if footerLanguageLink}} {{> atoms-buttons buttonTitle=footerLanguageLinkTitle buttonClass=footerLanguageLinkStyle buttonLink=footerLanguageLink}} {{/if}} {{#if footerCopyright}}
+      <div class="sitefooter__copyright">{{{footerCopyright}}}</div>
+      {{/if}}
+
+    </aside>
+
+  </div>
+</footer>

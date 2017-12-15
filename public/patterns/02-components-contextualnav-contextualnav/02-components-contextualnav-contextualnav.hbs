@@ -1,0 +1,23 @@
+<nav class="contextualnav">
+  <h4 class="contextualnav__title lightweight">
+    <span>{{contextualnav.title}}</span> {{> atoms-plusminustoggle classModifier="contextualnav__icon"}}
+  </h4>
+  <ul class="contextualnav__menu">
+    {{#contextualnav.items}}
+    <li>
+      {{#if hasChildren}}
+      <a href="{{link}}" class="contextualnav__dropdown">
+                        <span>{{title}}</span>
+                        {{> atoms-plusminustoggle classModifier="color-blue-3"}}
+                    </a>
+      <ul class="contextualnav__submenu">
+        {{#hasChildren.items}}
+        <li><a href="{{link}}">{{title}}</a></li>
+        {{/hasChildren.items}}
+      </ul>
+      {{else}}
+      <a href="{{link}}">{{title}}</a> {{/if}}
+    </li>
+    {{/contextualnav.items}}
+  </ul>
+</nav>

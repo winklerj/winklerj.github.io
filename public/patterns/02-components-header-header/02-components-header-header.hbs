@@ -1,0 +1,11 @@
+<header class="globalheader" id="header-container">
+
+  {{> atoms-primarynavtoggle}} {{#if logo}}
+  <a href="{{logo.link}}" class="globalheader__logo">
+            <img src={{logo.imgPath}} alt={{logo.altText}} />
+        </a> {{/if}} {{#if clientLogo}}
+  <a href="{{clientLogo.link}}" class="globalheader__client-logo">
+            <img src={{clientLogo.imgPath}} alt={{clientLogo.altText}} />
+        </a> {{/if}} {{> atoms-signin}} {{> atoms-findadoctor}} {{> atoms-searchbox}}
+
+</header>

@@ -1,0 +1,58 @@
+//UHC font stacks
+$robotolight: "robotolight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$robotoregular: "robotoregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+//UHC style guide colors
+$navy: #002675;
+$royalblue: #00409C;
+$blue: #0071CC;
+$lightblue: #00AAF3;
+$darkgray: #444444;
+$gray: #E0E0E0;
+$lightgray: #F5F5F5;
+$yellow: #FFDB3C;
+
+// old
+$mobile-breakpoint: 984px;
+$container-max-width: 1600px;
+$container-max-widths: (
+  sm: 99.8%,
+  md: 99.9%,
+  lg: 100%,
+  xl: $container-max-width
+);
+
+$color-blue-1: rgb(18, 35, 119); // #122377
+$color-blue-2: rgb(0, 61, 161); // #003DA1
+$color-blue-3: rgb(25, 110, 207); // #196ECF
+$color-blue-4: rgb(0, 168, 247); // #00A8F7
+
+// L1 - PRIMARY NAVIGATION
+$nav-1-bg-color: $color-blue-2;
+$nav-1-height: 50px;
+
+$nav-1-hover-bg-color: #0d56b8;
+$nav-1-active-bg-color: $color-blue-3;
+$nav-1-font-size: 13px;
+$nav-1-font-color: #ffffff;
+
+// L2 - SECONDARY NAVIGATION
+$nav-2-bg-color: $nav-1-active-bg-color;
+$nav-2-height: 42px;
+
+$nav-2-hover-bg-color: #1260c1;
+$nav-2-active-bg-color: #ffffff;
+$nav-2-font-size: 12px;
+$nav-2-font-color: #ffffff;
+
+$nav-2-active-font-color: $nav-1-active-bg-color;
+
+// L3 - TERTIARY NAVIGATION
+$nav-3-border-color: $nav-2-active-font-color;
+$nav-3-min-height: 180px;
+
+$nav-3-link-color: $color-blue-2;
+$nav-3-link-hover-color: $color-blue-4;
+
+//font size TO BE CLARIFIED FOR LATER
+$baseFontSize: 16px;

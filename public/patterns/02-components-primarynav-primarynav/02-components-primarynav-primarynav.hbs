@@ -1,0 +1,37 @@
+<nav id="primarynav" class="primarynav navbar cols-{{columns}}" role="navigation">
+  <div class="collapse navbar-collapse">
+    <ul class="primarynav__l1 primarynav__bar">
+      {{#navitems}} {{#if hasChildren}}
+      <li class="primarynav__link">
+        <a class="dropdown-toggle" id="primarynav__l1-{{link}}" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">{{title}}</a>
+
+        <ul class="primarynav__l2 primarynav__bar dropdown-menu container" aria-labelledby="primarynav__l1-{{link}}">
+          <li class="dropdown-header">
+            <a href="#">{{title}}</a>
+          </li>
+          {{#hasChildren.navitems}} {{#if hasChildren}}
+          <li class="primarynav__link dropdown-submenu">
+            <a class="dropdown-toggle" id="primarynav__l2-{{link}}" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">{{title}}</a>
+
+            <ul class="primarynav__l3 dropdown-menu offset-{{hasChildren.offset}} cols-{{hasChildren.width}}" aria-labelledby="primarynav__l2-{{link}}">
+              <li class="primarynav__sublink">
+                <a href="http://google.com">test</a>
+              </li>
+            </ul>
+            </a>
+          </li>
+          {{else}}
+          <li class="primarynav__link dropdown-item">
+            <a href="{{link}}">{{title}}</a>
+          </li>
+          {{/if}} {{/hasChildren.navitems}}
+        </ul>
+      </li>
+      {{else}}
+      <li class="primarynav__link">
+        <a href="{{link}}">{{title}}</a>
+      </li>
+      {{/if}} {{/navitems}}
+    </ul>
+  </div>
+</nav>

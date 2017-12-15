@@ -1,0 +1,14 @@
+//responsiveness
+$mobile-width: 768px;
+
+@mixin mobile {
+	@media (max-width: #{
+			$mobile-width
+		}) {
+		@content;
+	}
+}
+
+@function multiply($value1, $value2) {
+	@return ($value1 * $value2 / 1px);
+}

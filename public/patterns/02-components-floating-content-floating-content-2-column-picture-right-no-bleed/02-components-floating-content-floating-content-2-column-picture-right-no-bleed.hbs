@@ -1,0 +1,72 @@
+<div class="floating-content-component">
+  <div class="container">
+    <div class="row">
+      <div class="floating-content-component__column col-md-6">
+        <div class="floating-content-component__column__{{leftColumn.img.imgContainerClass}}">
+          <img src="{{leftColumn.img.imgPath}}">
+          <div class="floating-content-component__column__{{leftColumn.img.gradientBoxContainerClass}}">
+            <p>{{leftColumn.img.gradientBoxCopy.title1}}</p>
+            <p>{{leftColumn.img.gradientBoxCopy.body1}}</p>
+            <p>{{leftColumn.img.gradientBoxCopy.title2}}</p>
+            <p>{{leftColumn.img.gradientBoxCopy.body2}}</p>
+            <p>{{leftColumn.img.gradientBoxCopy.title3}}</p>
+            <p>{{leftColumn.img.gradientBoxCopy.body3}}</p>
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{leftColumn.gradient.gradientImgContainerClass}}">
+          <div>
+            <img src="{{leftColumn.gradient.gradientLogo1}}" />
+            <button class="button">{{leftColumn.gradient.gradientButtonText1}}</button>
+          </div>
+          <div>
+            <img src="{{leftColumn.gradient.gradientLogo2}}" />
+            <button class="button">{{leftColumn.gradient.gradientButtonText2}}</button>
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{leftColumn.floatingContent.floatingContentContainerClass}}">
+          <p class="floating-content-component__column__floating-content-container__content-title">{{leftColumn.floatingContent.contentTitle}}</p>
+          <p class="floating-content-component__column__floating-content-container__content">{{leftColumn.floatingContent.content}}</p>
+          <div class="floating-content-component__column__{{leftColumn.floatingContent.floatingContentContainerClass}}__{{leftColumn.floatingContent.buttonContainerClass}}">
+            {{> atoms-buttons buttonClass="secondary" buttonTitle="Secondary Button"}}
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{leftColumn.richText.richTextContainerClass}}">
+          <p>{{leftColumn.richText.richTextContent}}</p>
+        </div>
+      </div>
+      <div class="floating-content-component__column col-md-6">
+        <div class="floating-content-component__column__{{rightColumn.img.imgContainerClass}}">
+          <img src="{{rightColumn.img.imgPath}}">
+          <div class="floating-content-component__column__{{rightColumn.img.gradientBoxContainerClass}}">
+            <p>{{rightColumn.img.gradientBoxCopy.title1}}</p>
+            <p>{{rightColumn.img.gradientBoxCopy.body1}}</p>
+            <p>{{rightColumn.img.gradientBoxCopy.title2}}</p>
+            <p>{{rightColumn.img.gradientBoxCopy.body2}}</p>
+            <p>{{rightColumn.img.gradientBoxCopy.title3}}</p>
+            <p>{{rightColumn.img.gradientBoxCopy.body3}}</p>
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{rightColumn.gradient.gradientImgContainerClass}}">
+          <div>
+            <img src="{{rightColumn.gradient.gradientLogo1}}" />
+            <button class="button">{{rightColumn.gradient.gradientButtonText1}}</button>
+          </div>
+          <div>
+            <img src="{{rightColumn.gradient.gradientLogo2}}" />
+            <button class="button">{{rightColumn.gradient.gradientButtonText2}}</button>
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{rightColumn.floatingContent.floatingContentContainerClass}}">
+          <p class="floating-content-component__column__floating-content-container__content-title">{{rightColumn.floatingContent.contentTitle}}</p>
+          <p class="floating-content-component__column__floating-content-container__content">{{rightColumn.floatingContent.content}}</p>
+          <div class="floating-content-component__column__{{rightColumn.floatingContent.floatingContentContainerClass}}__{{rightColumn.floatingContent.buttonContainerClass}}">
+            {{> atoms-buttons buttonClass="secondary" buttonTitle="Secondary Button"}}
+          </div>
+        </div>
+        <div class="floating-content-component__column__{{rightColumn.richText.richTextContainerClass}}">
+          <p>{{rightColumn.richText.richTextContent}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
