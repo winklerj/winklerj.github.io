@@ -5874,7 +5874,7 @@ main {
 .contextualnav {
   z-index: 100;
   position: relative;
-  max-width: 275px; }
+  width: 275px; }
   .contextualnav__title {
     background: #FFDB3C;
     margin: 0;
@@ -5928,7 +5928,7 @@ main {
     display: block; }
   @media (min-width: 1600px) {
     .contextualnav {
-      max-width: 350px; }
+      width: 350px; }
       .contextualnav__title {
         border-radius: 5px;
         padding: 0 50px; }
