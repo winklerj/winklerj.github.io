@@ -13866,15 +13866,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = components;
 
-var _primarynavtoggle = __webpack_require__(12);
+var _plusminustoggle = __webpack_require__(12);
+
+var _plusminustoggle2 = _interopRequireDefault(_plusminustoggle);
+
+var _primarynavtoggle = __webpack_require__(13);
 
 var _primarynavtoggle2 = _interopRequireDefault(_primarynavtoggle);
 
-var _primaryNav = __webpack_require__(13);
+var _primaryNav = __webpack_require__(14);
 
 var _primaryNav2 = _interopRequireDefault(_primaryNav);
 
-var _searchbox = __webpack_require__(14);
+var _searchbox = __webpack_require__(15);
 
 var _searchbox2 = _interopRequireDefault(_searchbox);
 
@@ -13882,6 +13886,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function components() {
     function init() {
+        (0, _plusminustoggle2.default)();
         (0, _primarynavtoggle2.default)();
         (0, _primaryNav2.default)();
         (0, _searchbox2.default)();
@@ -13900,8 +13905,31 @@ function components() {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.default = primarynav;
-function primarynav() {
+exports.default = plusMinusToggle;
+function plusMinusToggle() {
+
+    function init() {
+        $('.plusminustoggle').on('click', function () {
+            $(this).toggleClass('active').parent().toggleClass('active');
+        });
+    }
+
+    return init();
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = primaryNavToggle;
+function primaryNavToggle() {
 
     function init() {
         $('.primarynav__toggle').on('click', function () {
@@ -13915,7 +13943,7 @@ function primarynav() {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13959,7 +13987,7 @@ function primaryNav() {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
