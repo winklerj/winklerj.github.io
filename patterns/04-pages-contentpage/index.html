@@ -22,10 +22,10 @@
 	<!-- Index of Patterns -->
 	<div class="pl-c-pattern-index">
 	
-<div id="viewall-components-primarynav" class="pl-c-category">
+<div id="viewall-pages-contentpage" class="pl-c-category">
 		
 	<h2 class="pl-c-category__title">
-		<a href="../../patterns/02-components-primarynav&#x2F;index.html" class="pl-c-category__title-link patternLink" data-patternpartial="viewall-components-primarynav">primarynav</a>
+		<a href="../../patterns/04-pages-contentpage&#x2F;index.html" class="pl-c-category__title-link patternLink" data-patternpartial="viewall-pages-contentpage">contentpage</a>
 	</h2><!--end pl-c-category__title-->
 
 	<div class="pl-c-category__description pl-c-text-passage">
@@ -33,31 +33,61 @@
 	</div><!--end pl-c-category__description-->
 	
 </div><!--end pl-c-category-->
-	<div id="components-primarynav" class="pl-c-pattern">
+	<div id="pages-contentpage" class="pl-c-pattern">
 
 	<div class="pl-c-pattern__header">
 
 		<h3 class="pl-c-pattern__title">
 				
-			<a href="../../patterns/02-components-primarynav-primarynav&#x2F;02-components-primarynav-primarynav.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="components-primarynav" title="Link to Pattern">
-				Primarynav
+			<a href="../../patterns/04-pages-contentpage-contentpage&#x2F;04-pages-contentpage-contentpage.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="pages-contentpage" title="Link to Pattern">
+				Contentpage
 				
 
 			</a><!--end pl-c-pattern__title-link-->
 
 		</h3><!--end pl-c-pattern__title-->
 
-		<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-components-primarynav" data-patternpartial="components-primarynav" title="View Pattern Info">
+		<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-pages-contentpage" data-patternpartial="pages-contentpage" title="View Pattern Info">
 			<span class="pl-c-pattern__toggle-icon">&#9660;</span>
 		</button><!--end pl-c-pattern__extra-toggle-->
 		
 	</div><!--end pl-c-pattern__header-->
   
-	<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-components-primarynav">
+	<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-pages-contentpage">
     </div><!--end pl-c-pattern__extra-->
 
 	<div class="pl-js-pattern-example">
-	<nav id="primarynav" class="primarynav navbar cols-6" role="navigation">
+	<header class="globalheader" id="header-container"> 
+
+    <a href="#primarynav" class="primarynav__toggle " aria-controls="primarynav">
+        Toggle Navigation
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html" class="globalheader__logo">
+            <img src=/images/logo.jpg alt=United Healthcare />
+        </a>
+
+
+        <button class="button button-primary signin">Sign In</button>
+        <a href="http://www.google.com" class="button button-secondary findadoctor">Find a Doctor</a>
+    <form class="searchbox">
+        <a href="#primarynav" class="primarynav__toggle open" aria-controls="primarynav">
+            Toggle Search
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <input type="search" placeholder="Search" />
+        <input type="submit" />
+    </form>
+
+</header>
+<nav id="primarynav" class="primarynav navbar cols-6" role="navigation">
     <div class="collapse navbar-collapse">
         <ul class="primarynav__l1 primarynav__bar">
                 <li class="primarynav__link">
@@ -167,11 +197,105 @@
         </ul>
     </div>
 </nav>
+<div class="page-title-with-nav">
+    <div class="container">
+        <h1 class="page-title-with-nav__title heavyweight">Small Business Health Options Program: SHOP</h1>
+        <nav class="contextualnav">
+            <h4 class="contextualnav__title lightweight">
+                <span>In this Section</span>
+                <i class="plusminustoggle contextualnav__icon"></i>
+            </h4>
+            <ul class="contextualnav__menu">
+                    <li>
+                            <a href="" class="contextualnav__dropdown">
+                                <span>Individuals &amp; Families</span>
+                                <i class="plusminustoggle color-blue-3"></i>
+                            </a>
+                            <ul class="contextualnav__submenu">
+                                <li><a href="">Dolor sitem</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Lectus suspen</a></li>
+                                <li><a href="">Erat blandit</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Viverra</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Lorem placerat</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Sed viverra</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                            <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Employees &amp; Organizations</a>
+                    </li>
+                    <li>
+                            <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Brokers &amp; Consultants</a>
+                    </li>
+                    <li>
+                            <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Health Care Providers</a>
+                    </li>
+                    <li>
+                            <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">About Us</a>
+                    </li>
+                    <li>
+                            <a href="" class="contextualnav__dropdown">
+                                <span>Member Resources</span>
+                                <i class="plusminustoggle color-blue-3"></i>
+                            </a>
+                            <ul class="contextualnav__submenu">
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Cras gravida</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Praesent egestas</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Suspendisse odio</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Etiam a ligula</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">In eu dignissim</a></li>
+                                <li><a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Praesent sem tortor</a></li>
+                            </ul>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<main class="container content-page">
+    <h1>Main</h1>
+</main>
+<footer class="sitefooter"> 
+    <div class="container">
+
+            <ul class="sitefooter__links">
+                    <li>
+                        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Careers</a>
+                    </li>
+                    <li>
+                        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html">Terms of Use</a>
+                    </li>
+            </ul>
+
+        <aside>
+            <div class="socialmediashare">
+                    <a href="https://www.facebook.com/UnitedHealthcare" class="facebook">facebook</a>
+                    <a href="https://www.youtube.com/UnitedHealthcare" class="youtube">youtube</a>
+                    <a href="https://twitter.com/uhc" class="twitter">twitter</a>
+                    <a href="https://www.instagram.com/unitedhealthcare/" class="instagram">instagram</a>
+            </div>
+
+                    <a href="/patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html" class="button button-tertiary">Español</a>
+
+                <div class="sitefooter__copyright">&copy; 2017 United HealthCare Services, Inc.</div>
+
+        </aside>
+
+    </div>
+</footer>
+
 
 	</div><!--end pl-js-pattern-example-->
 
-	<script type="text/json" id="pl-pattern-data-components-primarynav" class="pl-js-pattern-data">
-	{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"templates-base","lineagePath":"../../patterns/03-templates-base-base/03-templates-base-base.rendered.html"},{"lineagePattern":"pages-contentpage","lineagePath":"../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html"}],"lineageR":[{"lineagePattern":"templates-base","lineagePath":"../../patterns/03-templates-base-base/03-templates-base-base.rendered.html"},{"lineagePattern":"pages-contentpage","lineagePath":"../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"components","patternSubtype":"primarynav"},"patternExtension":"hbs","patternName":"Primarynav","patternPartial":"components-primarynav","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
+	<script type="text/json" id="pl-pattern-data-pages-contentpage" class="pl-js-pattern-data">
+	{"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"components-header","lineagePath":"../../patterns/02-components-header-header/02-components-header-header.rendered.html"},{"lineagePattern":"components-primarynav","lineagePath":"../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html"},{"lineagePattern":"components-page-title-with-nav","lineagePath":"../../patterns/02-components-page-title-with-nav-page-title-with-nav/02-components-page-title-with-nav-page-title-with-nav.rendered.html"},{"lineagePattern":"components-main","lineagePath":"../../patterns/02-components-main-main/02-components-main-main.rendered.html"},{"lineagePattern":"components-footer","lineagePath":"../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html"}],"lineage":[{"lineagePattern":"components-header","lineagePath":"../../patterns/02-components-header-header/02-components-header-header.rendered.html"},{"lineagePattern":"components-primarynav","lineagePath":"../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html"},{"lineagePattern":"components-page-title-with-nav","lineagePath":"../../patterns/02-components-page-title-with-nav-page-title-with-nav/02-components-page-title-with-nav-page-title-with-nav.rendered.html"},{"lineagePattern":"components-main","lineagePath":"../../patterns/02-components-main-main/02-components-main-main.rendered.html"},{"lineagePattern":"components-footer","lineagePath":"../../patterns/02-components-footer-footer/02-components-footer-footer.rendered.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"pages","patternSubtype":"contentpage"},"patternExtension":"hbs","patternName":"Contentpage","patternPartial":"pages-contentpage","patternState":"","patternEngineName":"handlebars","extraOutput":{}}
 	</script>
 
 </div><!--end pl-c-pattern-->
@@ -181,7 +305,7 @@
 
 <!--DO NOT REMOVE-->
 <script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
-  {"patternPartial":"viewall-components-primarynav"}
+  {"patternPartial":"viewall-pages-contentpage"}
 </script>
 
 <script>
