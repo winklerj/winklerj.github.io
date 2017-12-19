@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513374737658,
+  "timestamp": 1513701749433,
   "graph": {
     "options": {
       "directed": true,
@@ -49,19 +49,19 @@
         }
       },
       {
+        "v": "01-atoms/icons-and-rte/icons-and-rte.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-icons-and-rte-columns-icons-and-rte-columns/02-components-icons-and-rte-columns-icons-and-rte-columns.rendered.html",
+          "lineagePattern": "components-icons-and-rte-columns"
+        }
+      },
+      {
         "v": "01-atoms/primarynavtoggle/primarynavtoggle.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
           "lineagePattern": "components-header"
-        }
-      },
-      {
-        "v": "01-atoms/socialmediashare/socialmediashare.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html",
-          "lineagePattern": "components-primarynav"
         }
       },
       {
@@ -73,19 +73,19 @@
         }
       },
       {
+        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-hero-hero-landing-page-hero/02-components-hero-hero-landing-page-hero.rendered.html",
+          "lineagePattern": "components-hero-landing-page-hero"
+        }
+      },
+      {
         "v": "01-atoms/searchbox/searchbox.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-components-header-header/02-components-header-header.rendered.html",
           "lineagePattern": "components-header"
-        }
-      },
-      {
-        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/01-atoms-typography-typography-tertiarylinklist/01-atoms-typography-typography-tertiarylinklist.rendered.html",
-          "lineagePattern": "atoms-typography-tertiarylinklist"
         }
       },
       {
@@ -155,6 +155,14 @@
         }
       },
       {
+        "v": "01-atoms/socialmediashare/socialmediashare.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-primarynav-primarynav/02-components-primarynav-primarynav.rendered.html",
+          "lineagePattern": "components-primarynav"
+        }
+      },
+      {
         "v": "02-components/alert/alert.hbs",
         "value": {
           "compileState": "clean"
@@ -169,15 +177,23 @@
         }
       },
       {
+        "v": "02-components/floating-content/floating-content.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-components/columncontainer/columncontainer.hbs",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "02-components/floating-content/floating-content.hbs",
+        "v": "02-components/footer/footer.hbs",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
+          "lineagePattern": "pages-contentpage"
         }
       },
       {
@@ -189,15 +205,31 @@
         }
       },
       {
-        "v": "02-components/main/main.hbs",
+        "v": "02-components/hero/hero.hbs",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
-          "lineagePattern": "pages-contentpage"
+          "compileState": "clean"
         }
       },
       {
-        "v": "02-components/footer/footer.hbs",
+        "v": "02-components/hero/hero~homepage-hero.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/hero/hero~landing-page-hero-health-box.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/hero/hero~landing-page-hero.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/main/main.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
@@ -210,6 +242,12 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-contentpage-contentpage/04-pages-contentpage-contentpage.rendered.html",
           "lineagePattern": "pages-contentpage"
+        }
+      },
+      {
+        "v": "02-components/icons-and-rte-columns/icons-and-rte-columns.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -248,6 +286,12 @@
       },
       {
         "v": "01-atoms/buttons/buttons~tertiary.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/icons-and-rte/icons-and-rte~with-tertiary-link.json",
         "value": {
           "compileState": "clean"
         }
@@ -352,6 +396,16 @@
       {
         "v": "01-atoms/buttons/buttons~tertiary.json",
         "w": "01-atoms/buttons/buttons.hbs",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/icons-and-rte/icons-and-rte~with-tertiary-link.json",
+        "w": "01-atoms/icons-and-rte/icons-and-rte.hbs",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/icons-and-rte/icons-and-rte~with-tertiary-link.json",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
         "value": {}
       },
       {
@@ -480,6 +534,11 @@
         "value": {}
       },
       {
+        "v": "01-atoms/icons-and-rte/icons-and-rte.hbs",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {}
+      },
+      {
         "v": "01-atoms/searchbox/searchbox.hbs",
         "w": "01-atoms/primarynavtoggle/primarynavtoggle.hbs",
         "value": {}
@@ -537,6 +596,26 @@
       {
         "v": "02-components/header/header.hbs",
         "w": "01-atoms/searchbox/searchbox.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/hero/hero~homepage-hero.hbs",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/hero/hero~landing-page-hero-health-box.hbs",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/hero/hero~landing-page-hero.hbs",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/icons-and-rte-columns/icons-and-rte-columns.hbs",
+        "w": "01-atoms/icons-and-rte/icons-and-rte.hbs",
         "value": {}
       },
       {

@@ -5528,6 +5528,22 @@ ul.bullets li::before {
   .socialmediashare .youtube {
     background-image: url("/images/icon-youtube.png"); }
 
+.icons-and-rte {
+  position: relative; }
+  .icons-and-rte__icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin: 10px 25px 0px 0px; }
+  .icons-and-rte__content {
+    display: inline-block;
+    font-family: 'robotoregular'; }
+  .icons-and-rte a {
+    position: relative;
+    display: block;
+    left: 60px; }
+
 .tertiarytextlink {
   display: block;
   color: #003da1;
@@ -6116,6 +6132,113 @@ main {
   .floating-content-component__column__rich-text-container-hidden {
     display: none; }
 
+.hero {
+  position: relative;
+  background: no-repeat 50%;
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  color: #003da1;
+  font-family: "robotobold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .hero .hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; }
+  .hero form {
+    height: 50px;
+    margin: 10px 0 0 0; }
+  .hero input[type="text"] {
+    float: left;
+    margin-right: -48px;
+    padding: 10px 50px 10px 16px;
+    border-radius: 50px;
+    border: none;
+    vertical-align: text-top;
+    width: 100%; }
+  .hero .button-fa {
+    float: left;
+    width: 46px;
+    margin: 2px 0 0 0;
+    padding: 8px;
+    vertical-align: text-top; }
+
+.hero-homepage {
+  text-align: center; }
+
+.hero-text {
+  margin-bottom: 1rem;
+  padding: 0 40px; }
+  .hero-text hr {
+    border: none;
+    border-top: 6px solid #00a8f7;
+    margin: 0 auto 1rem; }
+  .hero-text h1 {
+    line-height: 1;
+    margin: .5em 0; }
+  .hero-text b {
+    font-family: "robotobold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.hero-homepage .hero-text hr {
+  max-width: 240px; }
+
+.hero-landing-page .hero-text hr {
+  max-width: 60px;
+  margin: 1rem 0; }
+
+.hero .floating-content-component__column__gradient-box-container {
+  right: 0;
+  bottom: -40px; }
+  .hero .floating-content-component__column__gradient-box-container h1, .hero .floating-content-component__column__gradient-box-container h2, .hero .floating-content-component__column__gradient-box-container h3, .hero .floating-content-component__column__gradient-box-container h4, .hero .floating-content-component__column__gradient-box-container h5, .hero .floating-content-component__column__gradient-box-container h6 {
+    color: white; }
+  .hero .floating-content-component__column__gradient-box-container h4 {
+    margin-bottom: 0; }
+
+@media (max-width: 984px) {
+  .visible-desktop {
+    display: none !important; }
+  .hero-landing-page .hero-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 40px; }
+  .hero-landing-page .hero-text a.tertiary-text {
+    background: #003da1;
+    color: #fff;
+    margin: 0 -40px -40px;
+    padding: 10px 40px; }
+  .hero .floating-content-component__column__gradient-box-container {
+    background: #003da1;
+    right: 0;
+    left: 0;
+    bottom: auto; } }
+
+@media (min-width: 985px) {
+  .visible-mobile {
+    display: none !important; }
+  .hero-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 40px; }
+    .hero-text p {
+      font-family: "robotoregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 27px;
+      line-height: 42px; }
+  .hero-homepage .hero-text hr {
+    margin: 1rem auto; }
+  .hero-homepage .hero-text h1 {
+    font-family: "robotoregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 92px; }
+  .hero-landing-page .hero-text {
+    padding: 0 0 4rem 6rem;
+    max-width: 40%; } }
+
 .page-title-with-nav {
   background: #E0E0E0;
   padding-bottom: 40px; }
@@ -6125,6 +6248,19 @@ main {
   @media (min-width: 1600px) {
     .page-title-with-nav .contextualnav {
       margin-left: -50px; } }
+
+.icons-and-rte-column {
+  position: relative;
+  text-align: center; }
+  .icons-and-rte-column > div {
+    position: relative;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 0px 20px; }
+    .icons-and-rte-column > div:first-of-type {
+      padding-left: 0px; }
+    .icons-and-rte-column > div:last-of-type {
+      padding-right: 0px; }
 
 main {
   background: #00AAF3;
