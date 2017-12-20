@@ -5705,7 +5705,7 @@ main {
       background: #003da1;
       position: fixed;
       overflow: hidden;
-      z-index: 100;
+      z-index: 1000;
       top: 0;
       left: -100%;
       transition: left .25s ease; }
