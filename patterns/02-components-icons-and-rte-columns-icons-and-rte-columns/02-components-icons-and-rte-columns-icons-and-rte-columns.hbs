@@ -1,3 +1,61 @@
-<div class="icons-and-rte-column col-md-12">
-  {{#each icons}} {{> atoms-icons-and-rte iconPath = iconPath rte-content = rte-content}} {{/each}}
+<div class="icons-and-rte-columns">
+  {{#if 1-column}}
+  <div class="{{1-column.1-column-container-class}}">
+    <div class="container">
+      <h2 class="icons-and-rte-columns__title">{{1-column.title}}</h2>
+      <div class="row">
+        {{#each 1-column.icons}}
+        <div class="icons-and-rte-columns__column col-md-12">
+          {{> atoms-icons-and-rte iconPath = iconPath rte-content = rte-content}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{/if}} {{#if 3-column}}
+  <div class="{{3-column.3-column-container-class}}">
+    <div class="container">
+      <h2 class="icons-and-rte-columns__title">{{3-column.title}}</h2>
+      <div class="row">
+        {{#each 3-column.icons}}
+        <div class="icons-and-rte-columns__column col-md-4">
+          {{> atoms-icons-and-rte iconPath = iconPath rte-content = rte-content}}
+        </div>
+        {{/each}}
+      </div>
+      {{> atoms-buttons buttonClass="primary" buttonTitle="See more plans"}}
+    </div>
+  </div>
+  {{/if}} {{#if 3-column-links-only}}
+  <div class="{{3-column-links-only.3-column-links-only-container-class}}">
+    <div class="container">
+      <h2 class="icons-and-rte-columns__title">{{3-column.title}}</h2>
+      <div class="row">
+        <div class="icons-and-rte-columns__column col-md-4">
+          {{> atoms-tertiarytextlink}}
+        </div>
+        <div class="icons-and-rte-columns__column col-md-4">
+          {{> atoms-tertiarytextlink}}
+        </div>
+        <div class="icons-and-rte-columns__column col-md-4">
+          {{> atoms-tertiarytextlink}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}} {{#if 4-column}}
+  <div class="{{4-column.4-column-container-class}}">
+    <div class="container">
+      <h2 class="icons-and-rte-columns__title">{{4-column.title}}</h2>
+      <div class="row">
+        {{#each 4-column.icons}}
+        <div class="icons-and-rte-columns__column col-md-3">
+          {{> atoms-icons-and-rte iconPath = iconPath rte-content = rte-content}} {{> atoms-tertiarytextlink}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{/if}}
+</div>
 </div>

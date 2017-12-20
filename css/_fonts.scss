@@ -1,164 +1,147 @@
-$font-path:"/fonts/roboto/";
+$font-path:"/fonts/uhcsans/";
 
 @font-face {
-    font-family: 'robotoblack';
-    src: url('#{$font-path}Roboto-Black-webfont.eot');
-    src: url('#{$font-path}Roboto-Black-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Black-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_black';
+    src: url('#{$font-path}UHCSans-Black.eot');
+    src: url('#{$font-path}UHCSans-Black.woff') format('woff'),
+         url('#{$font-path}UHCSans-Black.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotoblack_italic';
-    src: url('#{$font-path}Roboto-BlackItalic-webfont.eot');
-    src: url('#{$font-path}Roboto-BlackItalic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-BlackItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_blackitalic';
+    src: url('#{$font-path}UHCSans-BlackItalic.eot');
+    src: url('#{$font-path}UHCSans-BlackItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-BlackItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotobold';
-    src: url('#{$font-path}Roboto-Bold-webfont.eot');
-    src: url('#{$font-path}Roboto-Bold-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Bold-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_bold';
+    src: url('#{$font-path}UHCSans-Bold.eot');
+    src: url('#{$font-path}UHCSans-Bold.woff') format('woff'),
+         url('#{$font-path}UHCSans-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'roboto_condensedbold';
-    src: url('#{$font-path}RobotoCondensed-Bold-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-Bold-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-Bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'roboto_condensedbold_italic';
-    src: url('#{$font-path}RobotoCondensed-BoldItalic-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-BoldItalic-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-BoldItalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotobold_italic';
-    src: url('#{$font-path}Roboto-BoldItalic-webfont.eot');
-    src: url('#{$font-path}Roboto-BoldItalic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-BoldItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_bolditalic';
+    src: url('#{$font-path}UHCSans-BoldItalic.eot');
+    src: url('#{$font-path}UHCSans-BoldItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-BoldItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'roboto_condensedregular';
-    src: url('#{$font-path}RobotoCondensed-Regular-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-Regular-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-Regular-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_heavy';
+    src: url('#{$font-path}UHCSans-Heavy.eot');
+    src: url('#{$font-path}UHCSans-Heavy.woff') format('woff'),
+         url('#{$font-path}UHCSans-Heavy.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'roboto_condenseditalic';
-    src: url('#{$font-path}RobotoCondensed-Italic-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-Italic-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-Italic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_heavyitalic';
+    src: url('#{$font-path}UHCSans-HeavyItalic.eot');
+    src: url('#{$font-path}UHCSans-HeavyItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-HeavyItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'uhcsans_italic';
+    src: url('#{$font-path}UHCSans-Italic.eot');
+    src: url('#{$font-path}UHCSans-Italic.woff') format('woff'),
+         url('#{$font-path}UHCSans-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotoitalic';
-    src: url('#{$font-path}Roboto-Italic-webfont.eot');
-    src: url('#{$font-path}Roboto-Italic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Italic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_light';
+    src: url('#{$font-path}UHCSans-Light.eot');
+    src: url('#{$font-path}UHCSans-Light.woff') format('woff'),
+         url('#{$font-path}UHCSans-Light.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotolight';
-    src: url('#{$font-path}Roboto-Light-webfont.eot');
-    src: url('#{$font-path}Roboto-Light-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Light-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_lightitalic';
+    src: url('#{$font-path}UHCSans-LightItalic.eot');
+    src: url('#{$font-path}UHCSans-LightItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-LightItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'roboto_condensedlight';
-    src: url('#{$font-path}RobotoCondensed-Light-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-Light-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-Light-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_medium';
+    src: url('#{$font-path}UHCSans-Medium.eot');
+    src: url('#{$font-path}UHCSans-Medium.woff') format('woff'),
+         url('#{$font-path}UHCSans-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'roboto_condensedlight_italic';
-    src: url('#{$font-path}RobotoCondensed-LightItalic-webfont.eot');
-    src: url('#{$font-path}RobotoCondensed-LightItalic-webfont.woff') format('woff'),
-         url('#{$font-path}RobotoCondensed-LightItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_mediumitalic';
+    src: url('#{$font-path}UHCSans-MediumItalic.eot');
+    src: url('#{$font-path}UHCSans-MediumItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-MediumItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotolight_italic';
-    src: url('#{$font-path}Roboto-LightItalic-webfont.eot');
-    src: url('#{$font-path}Roboto-LightItalic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-LightItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_regular';
+    src: url('#{$font-path}UHCSans-Regular.eot');
+    src: url('#{$font-path}UHCSans-Regular.woff') format('woff'),
+         url('#{$font-path}UHCSans-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotomedium';
-    src: url('#{$font-path}Roboto-Medium-webfont.eot');
-    src: url('#{$font-path}Roboto-Medium-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Medium-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_semibold';
+    src: url('#{$font-path}UHCSans-SemiBold.eot');
+    src: url('#{$font-path}UHCSans-SemiBold.woff') format('woff'),
+         url('#{$font-path}UHCSans-SemiBold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotomedium_italic';
-    src: url('#{$font-path}Roboto-MediumItalic-webfont.eot');
-    src: url('#{$font-path}Roboto-MediumItalic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-MediumItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_semibolditalic';
+    src: url('#{$font-path}UHCSans-SemiBoldItalic.eot');
+    src: url('#{$font-path}UHCSans-SemiBoldItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-SemiBoldItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotoregular';
-    src: url('#{$font-path}Roboto-Regular-webfont.eot');
-    src: url('#{$font-path}Roboto-Regular-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Regular-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_ultralight';
+    src: url('#{$font-path}UHCSans-UltraLight.eot');
+    src: url('#{$font-path}UHCSans-UltraLight.woff') format('woff'),
+         url('#{$font-path}UHCSans-UltraLight.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'robotothin';
-    src: url('#{$font-path}Roboto-Thin-webfont.eot');
-    src: url('#{$font-path}Roboto-Thin-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-Thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotothin_italic';
-    src: url('#{$font-path}Roboto-ThinItalic-webfont.eot');
-    src: url('#{$font-path}Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('#{$font-path}Roboto-ThinItalic-webfont.ttf') format('truetype');
+    font-family: 'uhcsans_ultralightitalic';
+    src: url('#{$font-path}UHCSans-UltraLightItalic.eot');
+    src: url('#{$font-path}UHCSans-UltraLightItalic.woff') format('woff'),
+         url('#{$font-path}UHCSans-UltraLightItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }

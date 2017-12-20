@@ -1,7 +1,11 @@
 <div class="floating-content-component">
   <div class="container">
     <div class="row">
-      <div class="floating-content-component__column col-md-6">
+      <div class="floating-content-component__column col-md-12 floating-content-component__{{oneColumn.oneColumnClass}}">
+        <img src="{{oneColumn.imgPath}}" />
+        <p>{{{oneColumn.imgCaption}}}</p>
+      </div>
+      <div class="floating-content-component__column col-md-6 floating-content-component__{{leftColumn.leftColumnClass}}">
         <div class="floating-content-component__column__{{leftColumn.img.imgContainerClass}}">
           <img src="{{leftColumn.img.imgPath}}">
           <div class="floating-content-component__column__{{leftColumn.img.gradientBoxContainerClass}}">
@@ -34,7 +38,7 @@
           <p>{{leftColumn.richText.richTextContent}}</p>
         </div>
       </div>
-      <div class="floating-content-component__column col-md-6">
+      <div class="floating-content-component__column col-md-6 floating-content-component__{{rightColumn.rightColumnClass}}">
         <div class="floating-content-component__column__{{rightColumn.img.imgContainerClass}}">
           <img src="{{rightColumn.img.imgPath}}">
           <div class="floating-content-component__column__{{rightColumn.img.gradientBoxContainerClass}}">

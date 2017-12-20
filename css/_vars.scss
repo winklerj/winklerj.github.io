@@ -1,8 +1,22 @@
 //UHC font stacks
-$robotolight: "robotolight", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$robotoregular: "robotoregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$robotobold: "robotobold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$robotoblack: "robotoblack", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$default_fonts: Arial, Helvetica, sans-serif;
+
+$uhcsans_black: "uhcsans_black", $default_fonts;
+$uhcsans_blackitalic: "uhcsans_blackitalic", $default_fonts;
+$uhcsans_bold: "uhcsans_bold", $default_fonts;
+$uhcsans_bolditalic: "uhcsans_bolditalic", $default_fonts;
+$uhcsans_heavy: "uhcsans_heavy", $default_fonts;
+$uhcsans_heavyitalic: "uhcsans_heavyitalic", $default_fonts;
+$uhcsans_italic: "uhcsans_italic", $default_fonts;
+$uhcsans_light: "uhcsans_light", $default_fonts;
+$uhcsans_lightitalic: "uhcsans_lightitalic", $default_fonts;
+$uhcsans_medium: "uhcsans_medium", $default_fonts;
+$uhcsans_mediumitalic: "uhcsans_mediumitalic", $default_fonts;
+$uhcsans_regular: "uhcsans_regular", $default_fonts;
+$uhcsans_semibold: "uhcsans_semibold", $default_fonts;
+$uhcsans_semibolditalic: "uhcsans_semibolditalic", $default_fonts;
+$uhcsans_ultralight: "uhcsans_ultralight", $default_fonts;
+$uhcsans_ultralightitalic: "uhcsans_ultralightitalic", $default_fonts;
 
 //UHC style guide colors
 $navy: #002675;
