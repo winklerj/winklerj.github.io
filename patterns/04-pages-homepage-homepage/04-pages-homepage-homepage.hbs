@@ -1,1 +1,11 @@
-{{> templates-base}}
+{{> components-header}} {{> components-primarynav}} {{> components-hero-homepage-hero}} {{> components-icons-and-rte-columns 3-column=3-column}}
+<!-- <div class="row">
+    <div class={{columnWidth}}>
+        {{> components-floating-content-2-column-picture-right-no-bleed}}
+    </div>
+    <div class={{columnWidth}}>
+        {{> components-floating-content-2-column-picture-right-no-bleed leftColumn=leftColumn rightColumn=rightColumn oneColumn=oneColumn}}
+    </div>
+</div> -->
+{{> components-floating-content-2-column-picture-right-full-bleed leftColumn=1leftColumn rightColumn=1rightColumn oneColumn=1oneColumn}} {{> components-floating-content-2-column-picture-left-full-bleed leftColumn=2leftColumn rightColumn=2rightColumn oneColumn=2oneColumn}}
+{{> components-main}} {{> components-footer}}

@@ -6336,6 +6336,11 @@ main {
   max-width: 1500px;
   margin: 0 auto; }
 
+main {
+  background: #00AAF3;
+  max-width: 1500px;
+  margin: 0 auto; }
+
 main.content-page {
   margin-top: 50px; }
 
