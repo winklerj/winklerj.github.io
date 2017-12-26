@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="">
+
+<head>
+  <title>Small Business Health Options Program: SHOP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" href="../../css/index.css?1514306009016" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1514306009016" media="all" />
+  <link rel="stylesheet" href="../../css/styleguide-specific.css?1514306009016" media="all" />
+
+  <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+  <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1514306009016" media="all">
+  <!-- End Pattern Lab -->
+
+</head>
+
+<body class="">
+
+  <div class="">
+    <div class="footer-disclaimer-container__upper">
+      <div class="footer-disclaimer-container__tab">
+        <p>
+          Disclaimer
+          <i class="plusminustoggle "></i>
+        </p>
+      </div>
+    </div>
+    <div class="footer-disclaimer-container__lower">
+      <p>Aliquam auctor ipsum sed dolor vestibulum, eget dignissim quam vulputate. Maecenas cursus orci dictum velit laoreet, sed semper mi accumsan. Suspendisse venenatis posuere ex non posuere. Aliquam erat volutpat. Phasellus malesuada et libero et luctus.
+        Fusce nec nisl pharetra, gravida tellus et, commodo dui. Donec aliquet purus quis nulla viverra posuere. Aliquam erat volutpat. Aliquam eros erat, commodo non enim ut, scelerisque faucibus nunc. Phasellus vel aliquet enim. Nullam non enim et mi
+        iaculis convallis ut id justo. Proin eu neque vitae velit convallis fringilla. &lt;br/&gt; Vestibulum eget nulla convallis, ullamcorper elit vitae, luctus lacus. Aliquam sollicitudin aliquet nulla. Sed rhoncus nibh eu felis finibus congue. Ut
+        congue dignissim hendrerit. Aliquam rutrum enim a tristique porta. Mauris ante neque, pulvinar eu efficitur id, dictum nec arcu. In a ullamcorper lectus. Aliquam erat volutpat. Pellentesque nisl augue, consectetur sit amet elit at, condimentum
+        facilisis diam. Proin porttitor tellus sit amet orci pharetra, ac dignissim nunc mattis. Mauris faucibus nisl et aliquam elementum. Duis in nisi vulputate, euismod elit vel, consequat tortor. In sem orci, scelerisque eget lacinia dapibus, dignissim
+        vitae lectus. Donec convallis leo sit amet purus lacinia imperdiet. Vestibulum eget nunc et lectus bibendum efficitur sit amet non velit. Integer vitae congue massa, in rutrum dui.</p>
+    </div>
+  </div>
+
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+    {
+      "cssEnabled": false,
+      "patternLineageExists": true,
+      "patternLineages": [{
+        "lineagePattern": "atoms-plusminustoggle",
+        "lineagePath": "../../patterns/01-atoms-plusminustoggle-plusminustoggle/01-atoms-plusminustoggle-plusminustoggle.rendered.html"
+      }],
+      "lineage": [{
+        "lineagePattern": "atoms-plusminustoggle",
+        "lineagePath": "../../patterns/01-atoms-plusminustoggle-plusminustoggle/01-atoms-plusminustoggle-plusminustoggle.rendered.html"
+      }],
+      "patternLineageRExists": false,
+      "patternLineagesR": [],
+      "lineageR": [],
+      "patternLineageEExists": true,
+      "patternDesc": "",
+      "patternBreadcrumb": {
+        "patternType": "atoms",
+        "patternSubtype": "footerdisclaimer"
+      },
+      "patternExtension": "hbs",
+      "patternName": "Footerdisclaimer",
+      "patternPartial": "atoms-footerdisclaimer",
+      "patternState": "",
+      "patternEngineName": "handlebars",
+      "extraOutput": {}
+    }
+  </script>
+
+  <script>
+    /*!
+     * scriptLoader - v0.1
+     *
+     * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+     * Licensed under the MIT license
+     *
+     */
+
+    var scriptLoader = {
+
+      run: function(js, cb, target) {
+        var s = document.getElementById(target + '-' + cb);
+        for (var i = 0; i < js.length; i++) {
+          var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+          var c = document.createElement('script');
+          c.src = '../../' + src + '?' + cb;
+          if (typeof js[i] != 'string') {
+            if (js[i].dep !== undefined) {
+              c.onload = function(dep, cb, target) {
+                return function() {
+                  scriptLoader.run(dep, cb, target);
+                }
+              }(js[i].dep, cb, target);
+            }
+          }
+          s.parentNode.insertBefore(c, s);
+        }
+      }
+
+    }
+  </script>
+
+  <script id="pl-js-polyfill-insert-1514306009016">
+    (function() {
+      if (self != top) {
+        var cb = '1514306009016';
+        var js = [];
+        if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+          js.push('styleguide/bower_components/classList.min.js');
+        }
+        scriptLoader.run(js, cb, 'pl-js-polyfill-insert');
+      }
+    })();
+  </script>
+
+  <script id="pl-js-insert-1514306009016">
+    (function() {
+      if (self != top) {
+        var cb = '1514306009016';
+        var js = [{
+          'src': 'styleguide/bower_components/jwerty.min.js',
+          'dep': ['styleguide/js/patternlab-pattern.min.js']
+        }];
+        scriptLoader.run(js, cb, 'pl-js-insert');
+      }
+    })();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="../../index.js"></script>
+
+</body>
+
+</html>

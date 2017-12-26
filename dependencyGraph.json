@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513788900808,
+  "timestamp": 1514306010059,
   "graph": {
     "options": {
       "directed": true,
@@ -8,6 +8,28 @@
       "compound": false
     },
     "nodes": [
+      {
+        "v": "01-atoms/icons-and-rte/icons-and-rte.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-icons-and-rte-columns-icons-and-rte-columns/02-components-icons-and-rte-columns-icons-and-rte-columns.rendered.html",
+          "lineagePattern": "components-icons-and-rte-columns"
+        }
+      },
+      {
+        "v": "01-atoms/footerdisclaimer/footerdisclaimer.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/footer-disclaimer/footer-disclaimer.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-footer-footer-with-disclaimer/02-components-footer-footer-with-disclaimer.rendered.html",
+          "lineagePattern": "components-footer-with-disclaimer"
+        }
+      },
       {
         "v": "01-atoms/buttons/buttons.hbs",
         "value": {
@@ -41,27 +63,11 @@
         }
       },
       {
-        "v": "01-atoms/icons-and-rte/icons-and-rte.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-icons-and-rte-columns-icons-and-rte-columns/02-components-icons-and-rte-columns-icons-and-rte-columns.rendered.html",
-          "lineagePattern": "components-icons-and-rte-columns"
-        }
-      },
-      {
         "v": "01-atoms/plusminustoggle/plusminustoggle.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-components-contextualnav-contextualnav/02-components-contextualnav-contextualnav.rendered.html",
           "lineagePattern": "components-contextualnav"
-        }
-      },
-      {
-        "v": "01-atoms/parsys/parsys.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/01-atoms-column-column/01-atoms-column-column.rendered.html",
-          "lineagePattern": "atoms-column"
         }
       },
       {
@@ -81,6 +87,14 @@
         }
       },
       {
+        "v": "01-atoms/parsys/parsys.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-atoms-column-column/01-atoms-column-column.rendered.html",
+          "lineagePattern": "atoms-column"
+        }
+      },
+      {
         "v": "01-atoms/socialmediashare/socialmediashare.hbs",
         "value": {
           "compileState": "clean",
@@ -89,7 +103,15 @@
         }
       },
       {
-        "v": "04-pages/contentpage/contentpage.hbs",
+        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-icons-and-rte-columns-icons-and-rte-columns/02-components-icons-and-rte-columns-icons-and-rte-columns.rendered.html",
+          "lineagePattern": "components-icons-and-rte-columns"
+        }
+      },
+      {
+        "v": "01-atoms/tertiarytextlink/tertiarytextlink~reversal.hbs",
         "value": {
           "compileState": "clean"
         }
@@ -137,13 +159,13 @@
         }
       },
       {
-        "v": "01-atoms/typography/typography~desktop-titles.hbs",
+        "v": "01-atoms/typography/typography~disclaimer.hbs",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-atoms/typography/typography~disclaimer.hbs",
+        "v": "01-atoms/typography/typography~desktop-titles.hbs",
         "value": {
           "compileState": "clean"
         }
@@ -167,32 +189,6 @@
         }
       },
       {
-        "v": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-icons-and-rte-columns-icons-and-rte-columns/02-components-icons-and-rte-columns-icons-and-rte-columns.rendered.html",
-          "lineagePattern": "components-icons-and-rte-columns"
-        }
-      },
-      {
-        "v": "04-pages/contentpage-background-gradient/contentpage-background-gradient.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "04-pages/homepage/homepage.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "02-components/alert/alert.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
         "v": "02-components/background-gradient/background-gradient.hbs",
         "value": {
           "compileState": "clean"
@@ -204,6 +200,12 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-body-copy-body-copy/03-templates-body-copy-body-copy.rendered.html",
           "lineagePattern": "templates-body-copy"
+        }
+      },
+      {
+        "v": "02-components/alert/alert.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -222,6 +224,42 @@
       },
       {
         "v": "02-components/footer/footer.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "02-components/footer/footer~with-disclaimer.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/header/header.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "02-components/floating-content/floating-content.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/icons-and-rte-columns/icons-and-rte-columns.hbs",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "02-components/main/main.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
@@ -255,41 +293,11 @@
         }
       },
       {
-        "v": "02-components/icons-and-rte-columns/icons-and-rte-columns.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
-          "lineagePattern": "pages-homepage"
-        }
-      },
-      {
-        "v": "02-components/floating-content/floating-content.hbs",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "02-components/header/header.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
-          "lineagePattern": "pages-homepage"
-        }
-      },
-      {
         "v": "02-components/page-title-with-nav/page-title-with-nav.hbs",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-contentpage-background-gradient-contentpage-background-gradient/04-pages-contentpage-background-gradient-contentpage-background-gradient.rendered.html",
           "lineagePattern": "pages-contentpage-background-gradient"
-        }
-      },
-      {
-        "v": "02-components/main/main.hbs",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
-          "lineagePattern": "pages-homepage"
         }
       },
       {
@@ -304,6 +312,24 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/04-pages-homepage-homepage/04-pages-homepage-homepage.rendered.html",
           "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/contentpage/contentpage.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/homepage/homepage.hbs",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/contentpage-background-gradient/contentpage-background-gradient.hbs",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -597,6 +623,16 @@
         "value": {}
       },
       {
+        "v": "01-atoms/footer-disclaimer/footer-disclaimer.hbs",
+        "w": "01-atoms/plusminustoggle/plusminustoggle.hbs",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/footerdisclaimer/footerdisclaimer.hbs",
+        "w": "01-atoms/plusminustoggle/plusminustoggle.hbs",
+        "value": {}
+      },
+      {
         "v": "01-atoms/icons-and-rte/icons-and-rte.hbs",
         "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
         "value": {}
@@ -604,6 +640,11 @@
       {
         "v": "01-atoms/searchbox/searchbox.hbs",
         "w": "01-atoms/primarynavtoggle/primarynavtoggle.hbs",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/tertiarytextlink/tertiarytextlink~reversal.hbs",
+        "w": "01-atoms/tertiarytextlink/tertiarytextlink.hbs",
         "value": {}
       },
       {
@@ -634,6 +675,16 @@
       {
         "v": "02-components/footer/footer.hbs",
         "w": "01-atoms/buttons/buttons.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/footer/footer~with-disclaimer.hbs",
+        "w": "01-atoms/footer-disclaimer/footer-disclaimer.hbs",
+        "value": {}
+      },
+      {
+        "v": "02-components/footer/footer~with-disclaimer.hbs",
+        "w": "02-components/footer/footer.hbs",
         "value": {}
       },
       {
