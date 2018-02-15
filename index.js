@@ -13882,6 +13882,10 @@ var _searchbox = __webpack_require__(15);
 
 var _searchbox2 = _interopRequireDefault(_searchbox);
 
+var _accordion = __webpack_require__(16);
+
+var _accordion2 = _interopRequireDefault(_accordion);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function components() {
@@ -13890,6 +13894,7 @@ function components() {
         (0, _primarynavtoggle2.default)();
         (0, _primaryNav2.default)();
         (0, _searchbox2.default)();
+        (0, _accordion2.default)();
     }
 
     return init();
@@ -14019,6 +14024,38 @@ function searchbox() {
     }
 
     return init();
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {
+
+Object.defineProperty(exports, "__esModule", {
+				value: true
+});
+exports.default = accordion;
+function accordion() {
+
+				function init() {
+								$('.accordion-heading').on('click', function () {
+
+												if ($(this).closest('.accordion-panel').hasClass('active')) {
+
+																$(this).closest('.accordion').find('.active').removeClass('active');
+												} else {
+
+																$(this).closest('.accordion').find('.active').not($(this)).removeClass('active');
+
+																$(this).closest('.accordion-panel').addClass('active').find('.plusminustoggle').addClass('active');
+												}
+								});
+				}
+
+				return init();
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 

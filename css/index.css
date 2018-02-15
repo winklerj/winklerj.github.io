@@ -5257,6 +5257,9 @@ body {
   font-size: 18px;
   line-height: 30px; }
 
+b, strong {
+  font-family: "uhcsans_bold", Arial, Helvetica, sans-serif; }
+
 .landing-page {
   font-size: 27px;
   line-height: 42px; }
@@ -5338,6 +5341,14 @@ ul.bullets li::before {
   padding-right: .5em;
   position: relative;
   top: 0em; }
+
+hr.content-divider {
+  display: block;
+  height: 0;
+  max-width: 1400px;
+  margin: 1em auto;
+  border: none;
+  border-top: 1px solid #003da1; }
 
 .button {
   font-family: "uhcsans_bold", Arial, Helvetica, sans-serif;
@@ -6192,6 +6203,19 @@ main {
   .floating-content-component__one-column-hidden {
     display: none; }
 
+.blue-gradient-content-box {
+  background: linear-gradient(135deg, #003da1 0%, #003da1 60%, #00a8f7 100%);
+  color: #fff;
+  padding: 40px 20px 20px; }
+  .blue-gradient-content-box h1, .blue-gradient-content-box h2, .blue-gradient-content-box h3, .blue-gradient-content-box h4, .blue-gradient-content-box h5, .blue-gradient-content-box h6 {
+    color: #fff;
+    line-height: normal; }
+  .blue-gradient-content-box hr {
+    border: none;
+    border-top: 6px solid #00a8f7;
+    margin: 0 auto 1rem;
+    max-width: 240px; }
+
 .hero {
   position: relative;
   background: no-repeat 50%;
@@ -6316,6 +6340,27 @@ main {
     padding: 0 0 4rem 6rem;
     max-width: 40%; } }
 
+.accordion-panel {
+  margin: 0 0 20px 0;
+  padding: 20px 40px;
+  background-color: #F5F5F5; }
+
+.accordion-heading {
+  cursor: pointer; }
+  .accordion-heading .plusminustoggle {
+    width: .75em;
+    height: .75em;
+    float: right;
+    margin-top: .4em; }
+    .accordion-heading .plusminustoggle:before, .accordion-heading .plusminustoggle:after {
+      background: #00a8f7; }
+
+.accordion-body {
+  display: none; }
+
+.active .accordion-body {
+  display: block; }
+
 .page-title-with-nav {
   background: #F5F5F5;
   padding-bottom: 40px; }
@@ -6379,6 +6424,35 @@ main {
   padding-left: 15px;
   padding-right: 15px;
   background: initial; }
+
+.uhc-table {
+  width: 100%; }
+
+.uhc-table thead th {
+  background: #003da1;
+  color: #fff;
+  font-family: "uhcsans_light", Arial, Helvetica, sans-serif;
+  font-size: 31px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.uhc-table tbody td {
+  background: #F5F5F5;
+  color: #003da1;
+  font-size: 1em;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #fff; }
+
+.uhc-table thead th,
+.uhc-table tbody td {
+  padding-right: 50px;
+  padding-left: 50px;
+  border-right: 15px solid #fff; }
+  .uhc-table thead th:last-child,
+  .uhc-table tbody td:last-child {
+    border-right: none; }
 
 main {
   background: #00AAF3;

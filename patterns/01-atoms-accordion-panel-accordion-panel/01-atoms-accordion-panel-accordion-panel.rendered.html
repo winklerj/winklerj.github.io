@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="">
+
+<head>
+  <title>Accordion Panel Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" href="../../css/index.css?1518729675004" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1518729675004" media="all" />
+  <link rel="stylesheet" href="../../css/styleguide-specific.css?1518729675004" media="all" />
+
+  <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+  <link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1518729675004" media="all">
+  <!-- End Pattern Lab -->
+
+</head>
+
+<body class="">
+
+  <div class="accordion-panel">
+    <div class="accordion-heading">
+      <h2>
+        Accordion Panel Title
+        <i class="plusminustoggle "></i>
+      </h2>
+    </div>
+    <div class="accordion-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+    {
+      "cssEnabled": false,
+      "patternLineageExists": true,
+      "patternLineages": [{
+        "lineagePattern": "atoms-plusminustoggle",
+        "lineagePath": "../../patterns/01-atoms-plusminustoggle-plusminustoggle/01-atoms-plusminustoggle-plusminustoggle.rendered.html"
+      }],
+      "lineage": [{
+        "lineagePattern": "atoms-plusminustoggle",
+        "lineagePath": "../../patterns/01-atoms-plusminustoggle-plusminustoggle/01-atoms-plusminustoggle-plusminustoggle.rendered.html"
+      }],
+      "patternLineageRExists": true,
+      "patternLineagesR": [{
+        "lineagePattern": "components-accordion",
+        "lineagePath": "../../patterns/02-components-accordion-accordion/02-components-accordion-accordion.rendered.html"
+      }],
+      "lineageR": [{
+        "lineagePattern": "components-accordion",
+        "lineagePath": "../../patterns/02-components-accordion-accordion/02-components-accordion-accordion.rendered.html"
+      }],
+      "patternLineageEExists": true,
+      "patternDesc": "",
+      "patternBreadcrumb": {
+        "patternType": "atoms",
+        "patternSubtype": "accordion-panel"
+      },
+      "patternExtension": "hbs",
+      "patternName": "Accordion Panel",
+      "patternPartial": "atoms-accordion-panel",
+      "patternState": "",
+      "patternEngineName": "handlebars",
+      "extraOutput": {}
+    }
+  </script>
+
+  <script>
+    /*!
+     * scriptLoader - v0.1
+     *
+     * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+     * Licensed under the MIT license
+     *
+     */
+
+    var scriptLoader = {
+
+      run: function(js, cb, target) {
+        var s = document.getElementById(target + '-' + cb);
+        for (var i = 0; i < js.length; i++) {
+          var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+          var c = document.createElement('script');
+          c.src = '../../' + src + '?' + cb;
+          if (typeof js[i] != 'string') {
+            if (js[i].dep !== undefined) {
+              c.onload = function(dep, cb, target) {
+                return function() {
+                  scriptLoader.run(dep, cb, target);
+                }
+              }(js[i].dep, cb, target);
+            }
+          }
+          s.parentNode.insertBefore(c, s);
+        }
+      }
+
+    }
+  </script>
+
+  <script id="pl-js-polyfill-insert-1518729675004">
+    (function() {
+      if (self != top) {
+        var cb = '1518729675004';
+        var js = [];
+        if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+          js.push('styleguide/bower_components/classList.min.js');
+        }
+        scriptLoader.run(js, cb, 'pl-js-polyfill-insert');
+      }
+    })();
+  </script>
+
+  <script id="pl-js-insert-1518729675004">
+    (function() {
+      if (self != top) {
+        var cb = '1518729675004';
+        var js = [{
+          'src': 'styleguide/bower_components/jwerty.min.js',
+          'dep': ['styleguide/js/patternlab-pattern.min.js']
+        }];
+        scriptLoader.run(js, cb, 'pl-js-insert');
+      }
+    })();
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="../../index.js"></script>
+
+</body>
+
+</html>

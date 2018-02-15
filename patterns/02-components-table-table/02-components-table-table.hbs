@@ -1,0 +1,22 @@
+<table class="uhc-table">
+  <thead>
+    <tr>
+      {{#columns}}
+      <th scope="col">
+        {{{content}}}
+      </th>
+      {{/columns}}
+    </tr>
+  </thead>
+  <tbody>
+    {{#rows}}
+    <tr>
+      {{#columns}}
+      <td class="{{cellClass}}">
+        {{{content}}}
+      </td>
+      {{/columns}}
+    </tr>
+    {{/rows}}
+  </tbody>
+</table>
